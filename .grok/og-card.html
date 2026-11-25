@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      @font-face {
+        font-family: Fraunces;
+        src: url("file:///workspace/node_modules/@fontsource/fraunces/files/fraunces-latin-600-normal.woff")
+          format("woff");
+        font-weight: 600;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: Outfit;
+        src: url("file:///workspace/node_modules/@fontsource/outfit/files/outfit-latin-500-normal.woff")
+          format("woff");
+        font-weight: 500;
+        font-style: normal;
+      }
+      * {
+        margin: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: 1200px;
+        height: 630px;
+        overflow: hidden;
+        background: #090b10;
+      }
+      .stage {
+        position: relative;
+        width: 1200px;
+        height: 630px;
+        background: #090b10;
+        overflow: hidden;
+      }
+      .dusk,
+      .harbor,
+      .goldroom,
+      .scrim,
+      .grain,
+      .frame {
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+      }
+      .dusk {
+        background:
+          radial-gradient(ellipse 9% 42% at 18% 46%, rgba(238, 196, 140, 0.55), transparent 72%),
+          radial-gradient(ellipse 22% 70% at 16% 62%, rgba(48, 62, 110, 0.55), transparent 70%),
+          linear-gradient(180deg, transparent 62%, rgba(226, 160, 90, 0.08) 78%, transparent 92%);
+      }
+      .harbor {
+        background:
+          linear-gradient(180deg, transparent 84%, rgba(28, 64, 86, 0.55) 92%, rgba(9, 11, 16, 0.15) 100%),
+          radial-gradient(ellipse 36% 5% at 50% 93%, rgba(226, 182, 87, 0.34), transparent 72%);
+      }
+      .goldroom {
+        background:
+          radial-gradient(ellipse 26% 38% at 84% 40%, rgba(226, 182, 87, 0.42), transparent 68%),
+          radial-gradient(ellipse 14% 18% at 78% 58%, rgba(238, 241, 246, 0.12), transparent 70%);
+      }
+      .scrim {
+        background:
+          radial-gradient(ellipse 62% 58% at 50% 48%, rgba(9, 11, 16, 0.2) 0%, rgba(9, 11, 16, 0.78) 72%, #090b10 100%),
+          linear-gradient(90deg, rgba(9, 11, 16, 0.35), transparent 18%, transparent 82%, rgba(9, 11, 16, 0.35));
+      }
+      .grain {
+        background-image: url("file:///workspace/.grok/grain.png");
+        background-size: 180px 180px;
+        opacity: 0.09;
+        mix-blend-mode: overlay;
+      }
+      .frame {
+        inset: 22px;
+        border: 1px solid rgba(226, 182, 87, 0.28);
+        border-radius: 18px;
+      }
+      .lockup {
+        position: absolute;
+        inset: 0;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .mark {
+        width: 36px;
+        height: 36px;
+        margin-bottom: 18px;
+        filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.45));
+      }
+      h1 {
+        font-family: Fraunces, Georgia, serif;
+        font-weight: 600;
+        font-size: 156px;
+        line-height: 0.86;
+        letter-spacing: -0.03em;
+        text-align: center;
+        color: #e2b657;
+        text-shadow: 0 10px 30px rgba(0, 0, 0, 0.55);
+      }
+      h1 span {
+        display: block;
+      }
+      h1 .shop {
+        margin-top: 6px;
+        font-size: 176px;
+        letter-spacing: -0.035em;
+      }
+      .rule {
+        width: 64px;
+        height: 1px;
+        margin: 22px 0 16px;
+        background: rgba(226, 182, 87, 0.8);
+      }
+      .tag {
+        font-family: Outfit, ui-sans-serif, sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: #eef1f6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="stage">
+      <div class="dusk"></div>
+      <div class="harbor"></div>
+      <div class="goldroom"></div>
+      <div class="scrim"></div>
+      <div class="grain"></div>
+      <div class="frame"></div>
+      <div class="lockup">
+        <svg class="mark" viewBox="0 0 32 32" aria-hidden="true">
+          <path d="M8 4 L27 16 L8 28 Z" fill="#e2b657" />
+        </svg>
+        <h1>
+          <span>AI Video</span>
+          <span class="shop">Shop</span>
+        </h1>
+        <div class="rule"></div>
+        <p class="tag">Buy a film. Earn when it is actually watched.</p>
+      </div>
+    </div>
+  </body>
+</html>

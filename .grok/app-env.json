@@ -1,0 +1,6 @@
+{
+  "VITE_GROK_EXTENSIONS": "0",
+  "deploy": {
+    "database": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "AI Video Shop",
+      "hasCanvas": false,
+      "bodyTextLen": 885,
+      "bodyTextHash": "34647f2520eb34db79b526c687711202a347542965f05687d52802775403a86e",
+      "bodyTextPrefix": "AI Video Shop Sign in AI VIDEO SHOP Buy a film. Earn when it is ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "AI Video Shop",
+      "hasCanvas": false,
+      "bodyTextLen": 859,
+      "bodyTextHash": "7a146055819e8e17f29c8825485de6d3db419c4d425c2e52dfe8e5828965e4ff",
+      "bodyTextPrefix": "AI Video Shop AI VIDEO SHOP Buy a film. Earn when it is actually",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

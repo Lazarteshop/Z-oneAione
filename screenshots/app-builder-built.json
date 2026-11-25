@@ -1,0 +1,40 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "AI Video Shop",
+      "hasCanvas": false,
+      "bodyTextLen": 885,
+      "bodyTextHash": "34647f2520eb34db79b526c687711202a347542965f05687d52802775403a86e",
+      "bodyTextPrefix": "AI Video Shop Sign in AI VIDEO SHOP Buy a film. Earn when it is ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "AI Video Shop",
+      "hasCanvas": false,
+      "bodyTextLen": 885,
+      "bodyTextHash": "34647f2520eb34db79b526c687711202a347542965f05687d52802775403a86e",
+      "bodyTextPrefix": "AI Video Shop Sign in AI VIDEO SHOP Buy a film. Earn when it is ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "mobile: body text replaced (similar length, page start changed)"
+  ]
+}
